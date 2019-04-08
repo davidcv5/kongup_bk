@@ -17,14 +17,3 @@ func main() {
 		log.Fatal(err)
 	}
 }
-
-// func mapUpstream(api *API) (*upstream, error) {
-// 	upstream := &upstream{}
-// 	u, err := url.Parse(api.Attributes.UpstreamURL)
-// 	if err != nil {
-// 		return nil, fmt.Errorf("invalid url: %s", api.Attributes.UpstreamURL)
-// 	}
-// 	upstream.Name = &u.Host
-// 	upstream.Targets
-// 	return upstream, nil
-// }
